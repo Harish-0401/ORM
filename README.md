@@ -20,7 +20,7 @@ Execute Django admin and create details for 10 books
 # PROGRAM
 
 models.py :
-
+```
 from django.db import models
 from django.contrib import admin 
 class Car (models.Model):
@@ -42,10 +42,12 @@ admin.py :
 from django.contrib import admin
 from .models import Car,Caradmin
 admin.site.register(Car,Caradmin)
-
+```
 # OUTPUT
 
-![alt text](<../2025-09-22 (5).png>)
+<img width="1366" height="768" alt="2025-09-22 (5)" src="https://github.com/user-attachments/assets/44d317a9-8979-4d27-bfc9-2ade9d2c9e4b" />
+
+
 
 # RESULT
 Thus the program for creating a database using ORM hass been executed successfully
